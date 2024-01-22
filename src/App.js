@@ -1,25 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { Component } from 'react';
+import Tabuleiro from './components/Tabulero';
+import Cabecalho from './components/Cabecalho';
 
+class CaompoMinado extends Component{
+
+state = {
+    listas: 10,
+    colunas: 10,
+    bandeiras: 10,
+    minas: 10,
+    time:0
+}
+
+  render(){
+    return (
+    <div className='minesweeper'>
+      <Cabecalho time={this.state.time} flagCount={this.state.bandeiras}/>
+      <Tabuleiro listas={this.state.listas} colunas={this.state.colunas} minas={this.state.minas}/>
+    </div>
+ );
+  }
+}
+
+export default CaompoMinado;
+
+
+
+/*
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      hey
     </div>
   );
 }
 
 export default App;
+*/
