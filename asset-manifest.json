@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Campo-Minado/static/css/main.f01fac07.css",
+    "main.js": "/Campo-Minado/static/js/main.faf23fd5.js",
+    "static/js/787.56951d9e.chunk.js": "/Campo-Minado/static/js/787.56951d9e.chunk.js",
+    "index.html": "/Campo-Minado/index.html",
+    "main.f01fac07.css.map": "/Campo-Minado/static/css/main.f01fac07.css.map",
+    "main.faf23fd5.js.map": "/Campo-Minado/static/js/main.faf23fd5.js.map",
+    "787.56951d9e.chunk.js.map": "/Campo-Minado/static/js/787.56951d9e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f01fac07.css",
+    "static/js/main.faf23fd5.js"
+  ]
+}
